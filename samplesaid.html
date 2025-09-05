@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi primera (tercera) página html</title>
+</head>
+<body>
+    <h2>Registro de Usuario</h2>
+    <fieldset>
+        <legend>Datos Personales</legend>
+    <form action ="">
+        Ingrese su nombre:
+    <input type="text" name="nombre" placeholder="...">
+    <br><br>
+    Ingrese su edad:
+    <input type="number" value="Ingrese aquí su edad" placeholder="...">
+    <br><br>
+        Ingrese fecha de nacimiento:
+    <input type="date" name="date" placeholder="...">
+    <br><br>
+        <form>
+    Género<br>
+    <input type="radio" id="masculino" name="gender" value="K"/>
+    <label for="masculino">Masculino</label><br/>
+
+    <input type="radio" id="femenino" name="gender" value="S"/>
+    <label for="femenino">Femenino</label><br />
+
+    <input type="radio" id=not name="gender"value="M"/>
+    <label for="not">Prefiero no decir </label>
+</form>
+</fieldset>
+
+ a
+ b
+ c
+ d
+    </form>
+    <!---II parte-->
+    <fieldset>
+        <legend>Información de Contacto </legend>
+        Correo electrónico:
+    <input type="email" value="" placeholder="johndoe@gmail.com">
+    <br><br>
+        Teléfono:
+    <input type="number" value="" placeholder="+573213531818">
+    <br><br>
+        <label for="country-select">Pais:</label>
+    <select id="country-select">
+        <option value="">---Seleccione aquí su pais---</option>
+        <option value="Colombia">Colombia</option>
+        <option value="España">España</option>
+        <option value="EEUU">EEUU</option>
+    </select> 
+    </fieldset>
+
+    <!---III parte-->
+    <fieldset>
+        <legend>Credenciales de Acceso</legend>
+        Nombre de usuario:
+        <input type="text" value="" placeholder="Nombre de usuario">
+        <br><br>
+        Contraseña:
+        <input type="password" value="" placeholder="Contraseña">
+        <br><br>
+        Subir foto de perfil
+        <input type="file" value="">
+        <br><br>
+        
+        <label for="commentary">Deja tus comentarios:</label>
+        <br><br>
+        <textarea id="story" name="story" rows="5" cols="33">
+La página me parece fascinante ya que...
+        </textarea>
+        <br><br>
+    </fieldset>
+    <br>
+    <input type="checkbox" id="terminos" name="terminos" required><label for="terminos">Acepto los términos y condiciones</label> 
+    <br><br>   
+    <input type="submit" value="Registrar">
+    <input type="reset" value="Borrar">
+
+
+</body>
+</html>
